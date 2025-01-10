@@ -1,0 +1,274 @@
+
+@media screen and (min-width: 1024px){
+    
+*{
+    background-color: white;
+    margin:0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.head{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height:10vh;
+}
+.foot{
+    height:10vh;
+    background-color: black;   
+}
+.sec1{
+    background-color: orange;
+    height: 30vh;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+.sec2{
+    margin: 10px;
+    background-color: aliceblue;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.div1{
+    background-color: blueviolet;
+}
+.div2{
+    background-color: aquamarine;
+}
+.sec-con1{
+    background-color: rgb(247, 245, 243);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+.sec-con2{
+    background-color: rgb(243, 247, 243);
+    display: grid; 
+    margin: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.con1{
+    margin: 10px;
+    background-color: darkkhaki;
+}
+.con2{
+    margin: 10px;
+    background-color:darkorchid;
+}
+.con3{
+    margin: 10px;
+    background-color:hotpink;
+}
+
+}
+
+
+@media screen and (min-device-width: 769px) and (max-device-width:1024px){
+    
+    *{
+        background-color: white;
+        margin:0px;
+        padding: 0px;
+    }
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .head{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        height:10vh;
+    }
+    .foot{
+        height:10vh;
+        background-color: black;   
+    }
+    .sec1{
+        background-color: orange;
+        height: 30vh;
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .sec2{
+        margin: 10px;
+        background-color: aliceblue;
+        height: 50vh;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .div1{
+        background-color: blueviolet;
+    }
+    .div2{
+        background-color: aquamarine;
+    }
+    .sec-con1{
+        background-color: rgb(247, 245, 243);
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin: 10px;
+    }
+    .sec-con2{
+        background-color: rgb(243, 247, 243);
+        display: grid; 
+        margin: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .con1{
+        margin: 10px;
+        background-color: darkkhaki;
+    }
+    .con2{
+        margin: 10px;
+        background-color:darkorchid;
+    }
+    .con3{
+        margin: 10px;
+        background-color:hotpink;
+       
+    }
+    
+    }
+
+@media screen and  (min-device-width: 370px)  and (max-device-width:769px){
+
+    
+    *{
+        background-color: white;
+        margin:0px;
+        padding: 0px;
+    }
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .head{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        height:10vh;
+    }
+    .foot{
+        height:10vh;
+        background-color: black;   
+    }
+    .sec1{
+        background-color: orange;
+        height: 30vh;
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .sec2{
+        margin: 10px;
+        background-color: aliceblue;
+        height: 50vh;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .div1{
+        background-color: blueviolet;
+    }
+    .div2{
+        background-color: aquamarine;
+    }
+    .sec-con1{
+        background-color: rgb(247, 245, 243);
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin: 10px;
+    }
+    .sec-con2{
+        background-color: rgb(243, 247, 243);
+        display: grid; 
+        margin: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .con1{
+        margin: 10px;
+        background-color: darkkhaki;
+    }
+    .con2{
+        margin: 10px;
+        background-color:darkorchid;
+    }
+    .con3{
+        margin: 10px;
+        background-color:hotpink;
+       
+    }
+    
+    
+    
+}
+@media screen and (max-width:370px){
+
+    
+    *{
+        background-color: white;
+        margin:0px;
+        padding: 0px;
+    }
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .head{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        height:10vh;
+    }
+    .foot{
+        height:10vh;
+        background-color: black;   
+    }
+    .sec1{
+        background-color: orange;
+        height: 30vh;
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .sec2{
+        margin: 10px;
+        background-color: aliceblue;
+        height: 50vh;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .div1{
+        background-color: blueviolet;
+    }
+    .div2{
+        background-color: aquamarine;
+    }
+    .sec-con1{
+        background-color: rgb(247, 245, 243);
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin: 10px;
+    }
+    .sec-con2{
+        background-color: rgb(243, 247, 243);
+        display: grid; 
+        margin: 10px;
+        grid-template-columns: 1fr;
+    }
+    .con1{
+        margin: 10px;
+        background-color: darkkhaki;
+    }
+    .con2{
+        margin: 10px;
+        background-color:darkorchid;
+    }
+    .con3{
+        margin: 10px;
+        background-color:hotpink;
+       
+    }
+    
+    
+
+    
+}
